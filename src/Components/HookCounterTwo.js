@@ -7,7 +7,7 @@ import './HookCounterTwo.css'
   const[count , setCount] = useState(initialCount)
 
    const incrementFive = () =>{
-    for(let i =0 ; i<5 ; i++){
+    for(let i =0 ; i<=5 ; i++){
         console.log(count)
        setCount(prevState => prevState +1)
        console.log(count)
